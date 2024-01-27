@@ -1,0 +1,47 @@
+#h1projetos{
+    color: white;
+    font-size: 3.5em;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+#fileira11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divprojetos{
+    margin: 3em;
+    transition: 0.8s;
+}
+
+.divprojetos:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.imagensprojetos{
+    width: 20em;
+}
+
+@media (max-width: 565px){
+
+#h1projetos{
+    font-size: 2em;
+}
+
+.imagensprojetos{
+    width: 14em;
+}
+
+#fileira11, #fileira1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+}
